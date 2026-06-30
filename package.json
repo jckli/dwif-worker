@@ -1,0 +1,24 @@
+{
+  "name": "dwif-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.12.4",
+    "@cloudflare/workers-types": "^4.20260630.1",
+    "@types/node": "^26.0.1",
+    "@types/upng-js": "^2.1.5",
+    "typescript": "^5.9.3",
+    "vitest": "~3.2.0",
+    "wrangler": "^4.106.0"
+  },
+  "dependencies": {
+    "upng-js": "^2.1.0"
+  }
+}
