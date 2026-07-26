@@ -1,0 +1,12 @@
+[package]
+name = "dwif-api"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+worker = "0.8.5"
+image = { version = "0.25.10", default-features = false, features = ["png", "webp", "gif"] }
+gif = "0.14"
